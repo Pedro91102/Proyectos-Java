@@ -6,7 +6,7 @@ public class Clase2 {
 
         String nombre, apellido, palabra;
         boolean sexo;
-        int edad;
+        int edad, sueldo;
         Scanner leer = new Scanner(System.in);
 
         System.out.println("Digite el nombre:");
@@ -21,13 +21,16 @@ public class Clase2 {
         System.out.println("Digite la edad:");
         edad = leer.nextInt();
 
+        System.out.println("Digite el sueldo:");
+        sueldo = leer.nextInt();
+
         if (sexo) {
             palabra = "Masculino";
         } else {
             palabra = "femenino";
         }
 
-        System.out.println("Usted se llama " + nombre + " " + apellido + ", de " + edad + " anios de edad, de sexo " + palabra);
+        System.out.println("Usted se llama " + nombre + " " + apellido + ", de " + edad + " anios de edad, de sexo " + palabra + ", y un sueldo de $"+ sueldo);
 
     }
 
