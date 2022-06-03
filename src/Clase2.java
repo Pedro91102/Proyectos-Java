@@ -6,7 +6,8 @@ public class Clase2 {
 
         String nombre, apellido, palabra;
         boolean sexo;
-        int edad, sueldo;
+        int edad;
+        float sueldo ;
         Scanner leer = new Scanner(System.in);
 
         System.out.println("Digite el nombre:");
@@ -30,7 +31,7 @@ public class Clase2 {
             palabra = "femenino";
         }
 
-        System.out.println("Usted se llama " + nombre + " " + apellido + ", de " + edad + " anios de edad, de sexo " + palabra + ", y un sueldo de $"+ sueldo);
+        System.out.println("Usted se llama " + nombre + " " + apellido + ", de " + edad + " anios de edad, de sexo " + palabra + ", y un sueldo de $" + sueldo);
 
     }
 
