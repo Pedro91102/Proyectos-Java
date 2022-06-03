@@ -10,20 +10,20 @@ public class Clase2 {
         float sueldo ;
         Scanner leer = new Scanner(System.in);
 
-        System.out.println("Digite el nombre:");
-        nombre = leer.next();
+           System.out.println("Digite el nombre:");
+            nombre = leer.next();
 
-        System.out.println("Digite el apellido:");
-        apellido = leer.next();
+              System.out.println("Digite el apellido:");
+               apellido = leer.next();
 
-        System.out.println("Digite el sexo (M o F):");
-        sexo = leer.nextBoolean();
+                  System.out.println("Digite el sexo (M o F):");
+                   sexo = leer.nextBoolean();
 
-        System.out.println("Digite la edad:");
-        edad = leer.nextInt();
+                     System.out.println("Digite la edad:");
+                     edad = leer.nextInt();
 
-        System.out.println("Digite el sueldo:");
-        sueldo = leer.nextInt();
+                     System.out.println("Digite el sueldo:");
+                     sueldo = leer.nextInt();
 
         if (sexo) {
             palabra = "Masculino";
@@ -31,7 +31,10 @@ public class Clase2 {
             palabra = "femenino";
         }
 
-        System.out.println("Usted se llama " + nombre + " " + apellido + ", de " + edad + " anios de edad, de sexo " + palabra + ", y un sueldo de $" + sueldo);
+        System.out.println("Usted se llama "
+         + nombre + " " + apellido + ", de "
+         + edad + " anios de edad, de sexo "
+         + palabra + ", y un sueldo de $" + sueldo);
 
     }
 
