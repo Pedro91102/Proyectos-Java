@@ -11,7 +11,7 @@ public class Clase1 {
         System.out.println("Digite el valor 2");
         int numeroDos = leer.nextInt();
 
-        int total = numeroUno * numeroDos;
+        int total = numeroUno + numeroDos;
 
         System.out.println("el resultado es: " + total);
     }
