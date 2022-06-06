@@ -1,7 +1,7 @@
 // Realizar un programa que lea dos números y comprueba si son iguales.
 import java.util.Scanner;
 
-public class programa4{
+public class Numeros_iguales{
    public static void main(String args[]){
     
       Scanner leer = new Scanner(System.in);

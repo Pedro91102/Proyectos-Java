@@ -1,7 +1,7 @@
 //Realizar un programa que lea un número entero y calcule si es positivo o negativo. //
 import java.util.Scanner; 
 
-public class programa2{
+public class Positivo_o_negativo{
    public static void main(String args[]){
 
       Scanner leer = new Scanner(System.in);
@@ -11,9 +11,9 @@ public class programa2{
       numero = leer.nextInt();
 
       if (numero < 0) {
-          System.out.println("El numero es " + numero + " negativo");
+          System.out.println("El numero es " + numero + " negativo.");
         }   else {
-          System.out.println("El numero es " + numero + " positivo");
+          System.out.println("El numero es " + numero + " positivo.");
         }
 
     }

@@ -1,7 +1,7 @@
 //Realizar un Programa que lea un número entero y muestre si el número es múltiplo de 10.
 import java.util.Scanner;
 
-public class programa3 {
+public class Multiplo_de_10{
   public static void main(String args[]){
     
     Scanner leer = new Scanner(System.in);
