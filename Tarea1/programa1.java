@@ -1,3 +1,4 @@
+//Realizar un programa que lea un número entero y calcule si es par o impar.
 import java.util.Scanner;
 
 public class programa1{
