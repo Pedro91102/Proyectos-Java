@@ -1,10 +1,16 @@
 {
     "java.project.sourcePaths": [
-        "Tarea5",
-        "Tarea4",
-        "Tarea3",
-        "Tarea2",
         "Tarea1",
-        "Tarea7"
+          "Tarea2",
+            "Tarea3",
+           "Tarea4",
+         "Tarea5",
+        "Tarea6",
+           "Tarea7",
+             "Tarea8",
+           "Tarea9",
+        "Tarea10",
+          "Tarea11",
+             "Tarea12",
     ]
 }
