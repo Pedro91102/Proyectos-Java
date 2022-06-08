@@ -1,7 +1,7 @@
-//Realizar un programa que compruebe si un número es múltiplo de tres y de cinco
+//Realizar un programa que compruebe si un número es múltiplo de dos o de tres. 
 import java.util.Scanner;
 
-public class Multiplo_tresysinco {
+public class Multiplo_tresYdos {
     
     public static void main(String[] args) {
 
@@ -12,19 +12,19 @@ public class Multiplo_tresysinco {
         numero = leer.nextInt();
 
         esMultiploDeTres = numero % 3;
-        esMultiploDeCinco = numero % 5;
+        esMultiploDeCinco = numero % 2;
 
         if (esMultiploDeTres == 0) {
             System.out.println("El numero " + numero + " es multiplo de 3.");
             if (esMultiploDeCinco == 0) {
-                System.out.println("El numero " + numero + " es tambien multiplo de 5.");
+                System.out.println("El numero " + numero + " es tambien multiplo de 2.");
             }
         } 
         else if (esMultiploDeCinco == 0) {
-            System.out.println("El numero " + numero + " es multiplo de 5.");
+            System.out.println("El numero " + numero + " es multiplo de 2.");
         } 
         else {
-            System.out.println("El numero " + numero + " no es multiplo ni de 3 ni de 5.");
+            System.out.println("El numero " + numero + " no es multiplo ni de 3 ni de 2.");
         }
 
     }
