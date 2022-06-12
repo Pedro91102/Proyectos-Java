@@ -1,8 +1,9 @@
-
+/*Programa que lea dos números y muestre el resultado
+de la división del mayor entre el menor.
+Se debe comprobar que el divisor no puede ser cero*/
 import java.util.Scanner;
 
-public class Dividir_mayoYmenor {
-    
+public class Dividir_mayoYmenor {   
     public static void main(String[] args) {
         
         Scanner leer = new Scanner(System.in);

@@ -1,8 +1,8 @@
-//Realizar un programa que compruebe si un número es múltiplo de dos o de tres. 
+/*Realizar un programa que compruebe
+ si un número es múltiplo de dos o de tres.*/
 import java.util.Scanner;
 
 public class Multiplo_tresYdos {
-    
     public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in);

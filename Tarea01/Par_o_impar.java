@@ -1,6 +1,8 @@
 //Realizar un programa que lea un número entero y calcule si es par o impar.
 import java.util.Scanner;
 
+/*Realizar un programa que lea un número entero,
+ y calcule si es par o impar*/
 public class Par_o_impar{
   public static void main(String args[]){
     

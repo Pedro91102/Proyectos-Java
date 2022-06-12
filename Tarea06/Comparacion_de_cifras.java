@@ -2,7 +2,6 @@
 import java.util.Scanner;
 
 public class Comparacion_de_cifras {
-
     public static void main(String[] args) {
     
         Scanner leer = new Scanner(System.in);

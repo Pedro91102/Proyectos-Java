@@ -1,8 +1,8 @@
-//Realizar un programa que compruebe si un número es múltiplo de tres y de cinco
+/*Realizar un programa que compruebe
+ si un número es múltiplo de tres y de cinco*/
 import java.util.Scanner;
 
 public class Multiplo_tresysinco {
-    
     public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in);

@@ -1,9 +1,9 @@
-/*	Programa que lea dos números por teclado y muestre el resultado de la división del primero por el segundo.
-  Se debe comprobar que el divisor no puede ser cero. */
+/*	Programa que lea dos números por teclado y
+muestre el resultado de la división del primero por el segundo.
+Se debe comprobar que el divisor no puede ser cero. */
 import java.util.Scanner;
 
 public class Divicion_numero {
-    
     public static void main(String[] args) {
         
         Scanner leer = new Scanner(System.in);

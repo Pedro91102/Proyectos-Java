@@ -1,4 +1,5 @@
-//Realizar un programa que lea un número entero y calcule si es positivo o negativo. //
+/*Realizar un programa que lea un número entero
+ y calcule si es positivo o negativo. */
 import java.util.Scanner; 
 
 public class Positivo_o_negativo{
